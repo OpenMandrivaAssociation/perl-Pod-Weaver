@@ -11,6 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: perl(Config::INI::MVP)
 BuildRequires: perl(Config::MVP)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Moose)
@@ -23,6 +24,7 @@ BuildRequires: perl(String::Flogger)
 BuildRequires: perl(String::RewritePrefix)
 BuildRequires: perl(Test::Differences)
 BuildRequires: perl(namespace::autoclean)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -56,5 +58,3 @@ rm -rf %buildroot
 %doc Changes LICENSE README
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
