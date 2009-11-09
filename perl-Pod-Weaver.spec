@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Weaver
-%define upstream_version 3.093001
+%define upstream_version 3.093120
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
