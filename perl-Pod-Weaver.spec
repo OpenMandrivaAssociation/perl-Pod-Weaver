@@ -11,7 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: perl(Config::INI::MVP)
+BuildRequires: perl(Config::INI::MVP::Reader)
 BuildRequires: perl(Config::MVP)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Moose)
