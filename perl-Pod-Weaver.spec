@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(Config::MVP::Reader::INI)
 BuildRequires: perl(Config::MVP)
+BuildRequires: perl(DateTime)
 BuildRequires: perl(List::MoreUtils)
 BuildRequires: perl(Log::Dispatchouli)
 BuildRequires: perl(Moose)
