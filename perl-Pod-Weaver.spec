@@ -24,6 +24,7 @@ BuildRequires: perl(Pod::Eventual::Simple)
 BuildRequires: perl(Software::License)
 BuildRequires: perl(String::Flogger)
 BuildRequires: perl(String::RewritePrefix)
+BuildRequires: perl(String::Formatter)
 BuildRequires: perl(Test::Differences)
 BuildRequires: perl(namespace::autoclean)
 
