@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Weaver
-%define upstream_version 3.101638
+%define upstream_version 4.004
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 3.101638
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A bundle for the most commonly-needed prep work for a pod document
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Weaver-3.101638.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Weaver-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Config::INI)
@@ -107,4 +107,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Nov 08 2009 cpan2dist 3.093001-1mdv
 - initial mdv release, generated with cpan2dist
+
 
