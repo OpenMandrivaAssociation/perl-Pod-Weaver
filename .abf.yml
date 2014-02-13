@@ -1,5 +1,6 @@
 removed_sources:
   Pod-Weaver-3.101632.tar.gz: bd41036a007867876ec7d0d6cd08c194336bd7b1
   Pod-Weaver-3.101638.tar.gz: 25574907afb9c29550c68299531754fbaf6ae118
-sources:
   Pod-Weaver-4.004.tar.gz: d0a21afb8e87851487ea7d096b7f350a1c8845e6
+sources:
+  Pod-Weaver-4.006.tar.gz: fba3ce66ca05ea25f819d48a9fdee879958dd2b5

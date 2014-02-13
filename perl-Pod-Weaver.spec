@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Weaver
-%define upstream_version 4.004
+%define upstream_version 4.006
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -107,5 +107,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Sun Nov 08 2009 cpan2dist 3.093001-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
