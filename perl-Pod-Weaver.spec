@@ -8,7 +8,7 @@ Release:	3
 Summary:	A bundle for the most commonly-needed prep work for a pod document
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Weaver-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
