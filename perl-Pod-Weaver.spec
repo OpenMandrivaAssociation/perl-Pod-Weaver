@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Weaver
-%define upstream_version 4.006
+%define upstream_version 4.020
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	A bundle for the most commonly-needed prep work for a pod document
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Weaver-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/Pod-Weaver
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Pod-Weaver-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
